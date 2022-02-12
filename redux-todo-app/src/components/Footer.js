@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer class="info">
+    <footer className="info">
       <p>Click to edit a todo</p>
       <p>
-        <p>Created by Aysel Cavdar</p>
+        <a href='#/'>Created by Aysel Cavdar</a>
       </p>
       
     </footer>

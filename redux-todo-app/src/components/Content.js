@@ -5,9 +5,9 @@ import ContentFooter from "./ContentFooter";
 function Content() {
   return (
     <>
-      <section class="main">
-        <input class="toggle-all" type="checkbox" />
-        <label Hrmlfor="toggle-all">Mark all as complete</label>
+      <section className="main">
+        <input className="toggle-all" type="checkbox" />
+        <label htmlFor="toggle-all">Mark all as complete</label>
         <TodoList />
       </section>
       <ContentFooter/>
